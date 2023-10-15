@@ -1,0 +1,37 @@
+
+h1{
+    color: black;
+    font-family: calc();
+    font-size: 57;
+    background-color:brown;
+}
+/* Implementing internal css using ID name */
+#a{
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 57;
+    background-color: black;
+}
+/* For ID "#" is used */
+/* For class "." is used */
+.b{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 57;
+}
+.bc{
+    background-color: yellow;
+    /* Box model */
+    padding: 20;
+    /* The distance between the border and the content is called padding */
+    margin: 20;
+    /* The distance between border and outside of the page(horizontal) */
+    border-radius: 20;
+    border-width: 2;
+    border-color: gold;
+    border-style: double;
+    text-align: center;
+    background-image: linear-gradient(120deg, red,yellow,green);
+}
+/* We can apply various different class into one single element */
+/* We can apply both id and class in the same tag */

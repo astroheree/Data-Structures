@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* #Home{grid-area: home;}
+        #Link{grid-area: link;}
+        #Address{grid-area: address;}
+        #About{grid-area: about;}
+        #Task{grid-area: task;} */
+    
+         #maindiv{
+            display:flex;
+            flex-direction: row;
+            /* grid-template-areas: "home home home home home home"
+            "link link link address address address"
+            "about about about task task task"; */
+            padding: 20px; 
+            /* background-image: linear-gradient(120deg,black,red,yellow); */
+            background-image: url(https://images.pexels.com/photos/1571673/pexels-photo-1571673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            margin: 20px;
+        } 
+        div{
+            background-color: crimson;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+            text-align: left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Grid box - it is a two dimensional(combination of rows and columns) -->
+    <div id = "maindiv">
+        <div id = "Home">Details</div>
+        <div id ="Link">Website</div>
+        <div id = "Address">Contact Us</div> 
+        <div id = "About">Visit the webpage</div>
+        <div id = "Task">Work done</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- using internal css -->
+<style>
+    body{
+        /* background-image: linear-gradient(red,green,blue); */
+        /* background-image: url("https://images.pexels.com/photos/12577819/pexels-photo-12577819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+        background-attachment: scroll;
+        /* background attachment fixed is used so that only content gets scrolled not image or else by using scroll both content and image will be scrolled as we scroll */
+        background-repeat: no-repeat;
+        background-color: blueviolet;
+        padding-top: 80px;
+    }
+    h1{
+        color: maroon;
+        text-transform: uppercase;
+        text-decoration: line-through underline overline;
+        text-indent:1000px;
+        letter-spacing: 10px;
+        word-spacing: 5px;
+        line-height: 100px;
+
+    }
+    #a{
+        width: 200px;
+        height: 200px;
+        background-color: darkgrey;
+        margin:20px;
+        border-radius: 50px;
+        text-align: center;
+        animation-name: myanim;
+        animation-duration: 20s;
+        animation-iteration-count: 4;
+        position: relative;
+    }
+    @keyframes myanim {
+        /* from{background-color:black;left:200px;}
+        to{background-color: white;right:0px;}         */
+        20%{background-color:greenyellow;left: 0px;top: 0px;}
+        40%{background-color:bisque;left: 200px;top: 0px;}
+        60%{background-color:sienna;left: 200px;top: 200px;}
+        80%{background-color:violet;left: 0px;top: 200px;}
+        100%{background-color:black;left: 0px;top: 0px;}
+    }
+    #Header
+    {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        background-image: linear-gradient(red,green,blue);
+        color:navy;
+        text-align: center;
+        position: fixed;
+    }
+    #Footer
+    {
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        background-color: violet;
+        color: whitesmoke;
+        text-align: center;
+        position: fixed;
+    }
+</style>
+    <title>Document</title>
+</head> 
+<body>
+    <div id="Header">
+        <h2>Welcome to my webpage</h2>
+    </div>
+   <div align = "Center">
+    <h3>Hello World</h3>
+    <!-- <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1> -->
+    </div>
+    <div align = "right" id = "a">Thank you</div>
+    <div id="Footer">
+        <h3>Thanks for visiting</h3>
+    </div>
+    
+</body>
+</html>
